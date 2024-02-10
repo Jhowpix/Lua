@@ -10,25 +10,25 @@
 
 <i>When downloading Roblox, you automatically download Roblox Studio<br>To download click on the image below.</i><br><br>
 <i>Ao baixar o Roblox automaticamente baixar junto o Roblox Studio<br>Para baixar click na imagem abaixo.</i><br><br>
-<a href="https://www.roblox.com/download"><img src="/srcReadme/LogoRoblox.png" style="width: 250px;" ></a>
+<a href="https://www.roblox.com/download" target="_blank"><img src="/srcReadme/LogoRoblox.png" style="width: 250px;" ></a>
 <hr>
 
 <p>
   Creator Hub<br>
   Central dos criadores
 </P>
-  <a href="https://create.roblox.com/" ><img src="/srcReadme/script-roblox-studio.jpeg" style="width: 200px;"></a>
+  <a href="https://create.roblox.com/" target="_blank" ><img src="/srcReadme/script-roblox-studio.jpeg" style="width: 200px;"></a>
 <hr>
 
 <p>
   Documentation<br>
   Documentação
 </p>
- <a href="https://create.roblox.com/docs/pt-br"><img src="/srcReadme/RobloxStudio.png" style="width: 200px;"></a>
+ <a href="https://create.roblox.com/docs/pt-br" target="_blank"><img src="/srcReadme/RobloxStudio.png" style="width: 200px;"></a>
 <hr>
 
 <p>
   Lua.org
 </p>
-<a href="https://lua.org/"><img src="/srcReadme/LogoLua-1.png" style="width: 200px;"></a>
+<a href="https://lua.org/" target="_blank"><img src="/srcReadme/LogoLua-1.png" style="width: 200px;"></a>
 
