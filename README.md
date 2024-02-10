@@ -31,10 +31,3 @@
   Lua.org
 </p>
 <a href="https://lua.org/" target="_blank"><img src="/srcReadme/LogoLua-1.png" style="width: 200px;"></a>
-<hr>
-
-
-<p>
-<img src="/src/logo.PNG" style="width: 40px;">
-<i>Jhonatan de Oliveira S.</i>
-</p>
