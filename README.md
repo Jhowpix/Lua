@@ -10,21 +10,21 @@
 
 <i>When downloading Roblox, you automatically download Roblox Studio<br>To download click on the image below.</i><br>
 <i>Ao baixar o Roblox automaticamente baixar junto o Roblox Studio<br>Para baixar click na imagem abaixo.</i>
-<a href="https://www.roblox.com/download" <img src="/srcReadme/LogoRoblox.png"> </a>
+<a href="https://www.roblox.com/download"><img src="/srcReadme/LogoRoblox.png"></a>
 
 
 <p>
   Creator Hub
   Central dos criadores
-  <a href="https://create.roblox.com/" <img src="/srcReadme/script-roblox-studio.jpeg"> ></a>
+  <a href="https://create.roblox.com/" ><img src="/srcReadme/script-roblox-studio.jpeg"></a>
 </P> 
 
 <p>
   Documentation 
   Documentação
- <a href="https://create.roblox.com/docs/pt-br" <img src="/srcReadme/RobloxStudio.png"> </a>
+ <a href="https://create.roblox.com/docs/pt-br"><img src="/srcReadme/RobloxStudio.png"></a>
 </p>
 
 <p>
-<a href="https://lua.org/" <img src="/srcReadme/LogoLua-1.png"> ></a>
+<a href="https://lua.org/"><img src="/srcReadme/LogoLua-1.png"></a>
 </p>
