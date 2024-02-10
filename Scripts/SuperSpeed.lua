@@ -58,3 +58,10 @@ end
 -- Connect the onTouch function to the part's Touched event
 --Conecte a função onTouch ao evento Touched da parte
 part.Touched:Connect(onTouch)
+
+
+-- we have a video of what this function would look like posted in the / Movie / SuperSpeed.mp4 part
+-- You can delete all these comments
+
+-- temos um video de como ficaria esta funcao posta em uma parte na parta / Movie / SuperSpeed.mp4
+-- Voce Pode apagar todos estes comentarios 
