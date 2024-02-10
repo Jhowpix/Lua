@@ -16,15 +16,19 @@
 <p>
   Creator Hub<br>
   Central dos criadores
+  </P> 
   <a href="https://create.roblox.com/" ><img src="/srcReadme/script-roblox-studio.jpeg" style="width: 200px;"></a>
-</P> 
+
 
 <p>
   Documentation<br>
   Documentação
+  </p>
  <a href="https://create.roblox.com/docs/pt-br"><img src="/srcReadme/RobloxStudio.png" style="width: 200px;"></a>
-</p>
+
 
 <p>
-<a href="https://lua.org/"><img src="/srcReadme/LogoLua-1.png" style="width: 200px;"></a>
+  Lua.org
 </p>
+<a href="https://lua.org/"><img src="/srcReadme/LogoLua-1.png" style="width: 200px;"></a>
+
