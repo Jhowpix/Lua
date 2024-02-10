@@ -9,18 +9,18 @@
 
 
 <i>When downloading Roblox, you automatically download Roblox Studio<br>To download click on the image below.</i><br>
-<i>Ao baixar o Roblox automaticamente baixar junto o Roblox Studio<br>Para baixar click na imagem abaixo.</i>
+<i>Ao baixar o Roblox automaticamente baixar junto o Roblox Studio<br>Para baixar click na imagem abaixo.</i><br>
 <a href="https://www.roblox.com/download"><img src="/srcReadme/LogoRoblox.png"></a>
 
 
 <p>
-  Creator Hub
+  Creator Hub<br>
   Central dos criadores
   <a href="https://create.roblox.com/" ><img src="/srcReadme/script-roblox-studio.jpeg"></a>
 </P> 
 
 <p>
-  Documentation 
+  Documentation<br>
   Documentação
  <a href="https://create.roblox.com/docs/pt-br"><img src="/srcReadme/RobloxStudio.png"></a>
 </p>
