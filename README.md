@@ -35,4 +35,4 @@
 
 <i> Aprenda a criar seu jogo no Roblox<i><br>
 
-<a href="https://www.youtube.com/@worbx"><img src="/srcReadme/WoRBX.png" style="width: 100vw;></a>
+<a href="https://www.youtube.com/@worbx"><img src="/srcReadme/WoRBX.png" style="width: 100vw;"></a>
