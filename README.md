@@ -31,3 +31,8 @@
   Lua.org
 </p>
 <a href="https://lua.org/" target="_blank"><img src="/srcReadme/LogoLua-1.png" style="width: 200px;"></a>
+<hr>
+
+<i> Aprenda a criar seu jogo no Roblox<i><br>
+
+<a href="https://www.youtube.com/@worbx"><img src="/srcReadme/WoRBX.png" style="width: 100vw;></a>
