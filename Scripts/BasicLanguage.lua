@@ -49,6 +49,21 @@ VariavelNil = nil
 -- esta variavel Boolean pode armazenar true ou False que seria verdadeiro ou falso so que em ingles
 VariavelBoolean = true 
 
+-- falamos de string " TEXTO "  vou mostrar uma funcao de substituicao de string
+
+VariavelBomDia = "Bom dia povo"
+VariavelBoaTarde = "Boa tarde lindos e lindas"
+VariavelGalera = "galera"
+
+-- neste expmlo definimos a variavel damos seu tipo string e ativamos a funcao gsub para subistituirmos uma palavra
+--[[
+    a funcao gsub precisa de tres parametros para funcionar 
+    primeiro a variavel onde esta o valor da string
+    segundo a string a ser substituida 
+    terceiro a variavel que possui o valor em string que ira subistituir o valor da primeira variavel
+]]
+ExemploDeSubstituicao = string.gsub(VariavelBomDia,"povo",VariavelGalera)
+print(ExemploDeSubstituicao)
 
 --[[ 
     teremos os caracteres de operacoes 
@@ -79,8 +94,8 @@ SegundaMultiplicacao = Numero2 * Numero3 -- podemos buscar qualquer valor em qua
 -- podemos concatenar estring e number e usarmos dois valores diferentes 
 print(Multiplicacao.." Resultado da  Segunda Multiplicacao e " ..SegundaMultiplicacao ) 
 
-Numero5 = 10
-Numero10 = 5 
+Numero10 = 10
+Numero5 = 5 
 Divisao = Numero5 / Numero10 -- operador de divisao ( / )
 
 -- podemos usar tambem variaveis que receberam valores de outras variaveis para realizar operacoes
@@ -93,7 +108,7 @@ print("Vamos aproveitar e dividir "..Numero3.." que esta em uma variavel mais di
 -- vimos que a linguagem lua nao gera somente resultados inteiros 
 
 Numero11 = 11
-Numero20 = 32 
+Numero20 = 20 
 Exponencial = Numero11 ^ Numero20 -- Operador de exponencial ( ^ )
 -- claro que acima nao conseguimos fazer uma equacao exponencial completa 
 print(Exponencial)
@@ -109,19 +124,143 @@ print(Exponencial)
     x = 5
 ]]
 
+-- neste caso declaramos a variavel e ja atribuimos os valores e o operador de porcentagem de modo que a variavel ja efetua o calculos
+Porcentagem = 50 % 100 -- operador de porcentagem ( % )
+print(Porcentagem)
 
--- falamos de string " TEXTO "  vou mostrar uma funcao de substituicao de string
-
-VariavelBomDia = "Bom dia povo"
-VariavelBoaTarde = "Boa tarde lindos e lindas"
-VariavelGalera = "galera"
-
--- neste expmlo definimos a variavel damos seu tipo string e ativamos a funcao gsub para subistituirmos uma palavra
---[[
-    a funcao gsub precisa de tres parametros para funcionar 
-    primeiro a variavel onde esta o valor da string
-    segundo a string a ser substituida 
-    terceiro a variavel que possui o valor em string que ira subistituir o valor da primeira variavel
+--[[ operadores logicos
+     < menor 
+     > maior 
+     <= menor igual 
+     >= maior igual
+     == igual
+     ~= different
+     and  e 
+     ar ou
+     not nao 
 ]]
-ExemploDeSubstituicao = string.gsub(VariavelBomDia,"povo",VariavelGalera)
-print(ExemploDeSubstituicao)
+
+--[[ para comprendermos melhor os operadores logicos 
+     vamos usar uma estrutura de decisao  If Else 
+     If traduzindo seria.. SE 
+     exemplo: Se eu aprender lua serei programador 
+     else traduzindo seria... Se Nao 
+     exemplo: se eu nao aprender nao serei programador
+
+     observe a sintaxe da estrutura if else 
+
+        if condicao a ser testada then 
+           algo a ser feito pela condicao se sim
+        else
+           algo a ser feito pela condicao se nao
+        end
+]]
+
+-- exemplo:
+
+            if Numero2 < Numero3 then -- numero 2 e < menor que numero 3 
+                print("Numero menor "..Numero2) -- se 2 e < menor que 3 escreva... Numero menor 2
+            else 
+                print("Numero maior "..Numero3) -- se 2 nao for < menor que 3 esqueva.. Numero maior 3
+            end
+
+            if Numero10 > Numero20 then  -- numero 10 e > maior que numero 20
+                print("Numero menor "..Numero10)
+            else 
+                print("Numero maior "..Numero20)
+            end
+
+            if Numero10 >= Numero20 then -- numero 10 e >= maior ou igual a 20 
+                print("Numero e maior e igual")
+            else 
+                print("Numero e menor")
+            end
+            
+            if Numero10 <= Numero20 then -- numero 10 e <= menor ou igual a 20 
+                print("Numero e menor") -- repare que tivemos que mudar as condicoes 
+            else 
+                print("Numero e maior e igual")
+            end
+
+            if Numero10 == Numero20 then -- numero 10 e == igual a 20 
+                print("Numero e igual") 
+            else 
+                print("Numero e diferente")
+            end
+
+            if Numero10 == Numero10 then -- numero 10 e == igual a 10 
+                print("Numero e igual") 
+            else 
+                print("Numero e diferente")
+            end
+
+            if Numero10 ~= Numero10 then -- numero 10 e ~= diferente de 10 
+                print("Numero e diferente")
+            else 
+                print("Numero e igual") 
+            end
+
+--[[ vamos mudar um pouco e vamos ver junto com os 
+     operadores logicos junto com a estrutura de repeticao
+     conheceremos a estrutura While 
+     a funcao while seria na traducao 
+     enquanto for verdadeiro faca...
+
+     sintaxe 
+
+     while condicao  do 
+        condiao a ser executada caso for verdadeiro a condicao 
+     end
+]]
+
+-- exemplo
+EstruturaWhile = 0 -- declarando uma variavel para este exemplo
+
+          while EstruturaWhile < 10 do --enquanto a variavel EstruturaWhile for menor que 10 repita 
+            print(EstruturaWhile) -- vai mostrar no console toda vez que acrecentar + 1 
+            EstruturaWhile = EstruturaWhile + 1 -- variavel EstruturaWhile soma com + 1 
+          end
+
+          print(EstruturaWhile)
+
+
+-- outro exemplo
+
+          while Numero20 > 10 do -- enauqnto numero 20 for maior que 10 faca
+            print(Numero20)  -- vai mostrar no console toda vez que subtrair 1
+            Numero20 = Numero20  - 1  -- varuavel Numero20 vai subtrair -1 
+          end
+
+          print(" Valor da variavel Numero20 agora e "..Numero20)-- agor Numero20 nao vale mais 20 como declarado na linha 111 ele agora vale 10 porque foi reatribuido o valor atraves da funcao while
+
+
+-- voltando ao if testaremos os operadores and or not
+
+         if Numero20 and Numero10 <= 20 then -- se Numero20 e Numero10 forem Menor ou igual a 20 
+            print(Numero20,Numero10)         -- repare que temos como por duas variaveis ou dois valores juntos com o uso da virgula 
+         else                                -- se nao 
+            print(Numero10)                  -- imprima Numero10
+         end
+
+-- vamos ver no console dois numeros 10 poe que a variavel Numero20 nao vale mais 20 vamos arrumar isso 
+
+        if Numero10 or Numero5 > 20 then                                    -- se Numero10 ou Numero5 for menor que 20 entao faca 
+            Numero20=Numero20 + 10                                          -- Numero20 soma com + 10 
+            print(" Valor da variavel Numero20 agora e "..Numero20)         -- vai mostrar no console o valor de Numero20 
+        else                                                                -- se nao 
+            print("A adicao de valores ao Numero20 nao sera nescessaria")   -- vai mostrar no console que a soma nao e nescessaria
+        end
+
+-- veremos um pouco soble os boolean 
+
+VariavelBoolean = true  
+        
+        if VariavelBoolean ~= false then              -- se a VariavelBoolean for diferente de falso faca 
+            print("VariavelBoolean nao e falsa ")     -- mostra resultado
+        else                                          -- se nao 
+            print("VariavelBoolean e verdadeira")     -- mostre este resultado 
+        end
+
+
+        -- em construcao 
+        
