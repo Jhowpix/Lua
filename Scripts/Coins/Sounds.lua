@@ -1,3 +1,5 @@
+-- este escript vai dentro da pasta coin junto com a sua coin 
+
 -- Variavel tempo para habilitar a som 
 local COOLDOWN = 10
 
