@@ -1,0 +1,40 @@
+local player = game.Players.LocalPlayer
+local humanoid = player.Character:WaitForChild("Humanoid")
+
+local maxHealth = 100
+local currentHealth = maxHealth
+local hunger = 100
+
+local function updateHunger()
+    hunger = hunger - 1
+    if hunger <= 0 then
+        currentHealth = currentHealth - 1
+        if currentHealth <= 0 then
+            humanoid.Health = 0
+        else
+            humanoid.Health = currentHealth
+        end
+        hunger = 100
+    end
+end
+
+local function increaseHunger(amount)
+    hunger = hunger + amount
+    if hunger > 100 then
+        hunger = 100
+    end
+end
+
+while true do
+    wait(60) -- Adjust this value depending on how fast you want the hunger to decrease
+    updateHunger()
+end
+
+humanoid.HealthChanged:Connect(function(health)
+    if health <= 0 then
+        -- Handle player death here
+    end
+end)
+
+-- Example usage:
+increaseHunger(20) -- Increase hunger by 20

@@ -1,0 +1,41 @@
+local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local humanoid = player.Character:WaitForChild("Humanoid")
+
+-- Create UI elements
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0.2, 0, 0.1, 0)
+frame.Position = UDim2.new(0.8, 0, 0.1, 0)
+frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+frame.BorderSizePixel = 2
+frame.Parent = playerGui
+
+local lifeLabel = Instance.new("TextLabel")
+lifeLabel.Size = UDim2.new(1, 0, 0.5, 0)
+lifeLabel.Position = UDim2.new(0, 0, 0, 0)
+lifeLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+lifeLabel.BorderSizePixel = 0
+lifeLabel.Text = "Life: " .. humanoid.Health
+lifeLabel.TextScaled = true
+lifeLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+lifeLabel.Parent = frame
+
+local hungerLabel = Instance.new("TextLabel")
+hungerLabel.Size = UDim2.new(1, 0, 0.5, 0)
+hungerLabel.Position = UDim2.new(0, 0, 0.5, 0)
+hungerLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+hungerLabel.BorderSizePixel = 0
+hungerLabel.Text = "Hunger: 100"
+hungerLabel.TextScaled = true
+hungerLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+hungerLabel.Parent = frame
+
+-- Update UI elements
+humanoid.HealthChanged:Connect(function(health)
+    lifeLabel.Text = "Life: " .. math.floor(health)
+end)
+
+while true do
+    wait(1)
+    hungerLabel.Text = "Hunger: " .. math.floor(hunger)
+end
